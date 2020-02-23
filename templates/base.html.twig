@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        Locale={{ app.request.locale }} / <a href="{{ path('homepage') }}">Homepage</a> / <a href="{{ path('contact_page') }}">Contact</a> / <a href="{{ path('not_i18n_page') }}">Not i18n page</a>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

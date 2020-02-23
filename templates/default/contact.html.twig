@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Contact</h1>
+
+    Change lang:
+    <ul>
+        <li><a href="{{ path('contact_page', {'_locale': 'en'}) }}">Homepage en</a></li>
+        <li><a href="{{ path('contact_page', {'_locale': 'de'}) }}">Homepage de</a></li>
+        <li><a href="{{ path('contact_page', {'_locale': 'nl_BE'}) }}">Homepage nl_BE</a></li>
+        <li><a href="{{ path('contact_page', {'_locale': 'fr_BE'}) }}">Homepage fr_BE</a></li>
+    </ul>
+{% endblock %}

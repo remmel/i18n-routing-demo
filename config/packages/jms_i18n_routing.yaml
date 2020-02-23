@@ -1,0 +1,6 @@
+jms_i18n_routing:
+  locales:
+    en: //www.website.com
+    de: //www.website.de
+    fr_BE: //www.website.be/fr
+    nl_BE: //www.website.be/nl
