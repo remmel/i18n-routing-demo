@@ -1,10 +1,3 @@
-
-
-`symfony server:start`  
-run localhost:8000/contact
-
-
-
 # Generate that project from scratch
 
 ## Install basic Symfony app with annotations / translation / twig
