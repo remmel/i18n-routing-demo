@@ -2,10 +2,10 @@
 
 ## Install basic Symfony app with annotations / translation / twig
 ```shell script
-composer create-project symfony:^4.4 i18n-routing-demo
+composer create-project symfony/skeleton:^5.0 i18n-routing-demo
 cd i18n-routing-demo
 composer req annotations
-composer require symfony/translation  
+composer req symfony/translation  
 composer req twig
 ```
 ```shell script
@@ -52,7 +52,7 @@ jms_i18n_routing:
     nl_BE: //www.website.be/nl
 ```
 
-Update `templates` and `DefaultController`
+Add / complete `templates`, `DefaultController` and `translations`.
 
 ```shell script
 bin/console debug:router
