@@ -79,3 +79,21 @@ Configure local hosts, to be able to check in local
 `127.0.0.1  www.website.com www.website.de www.website.be`
 
 Go in http://www.website.com
+
+## In order to custom bundle and use local package
+
+- `composer require remmel/i18n-routing-bundle @dev`  
+or
+- remove manually remmel/i18n-routing-bundle folder
+- `composer update remmel/i18n-routing-bundle`
+```yml
+"repositories": [
+    {
+        "type": "path",
+        "url": "/home/remmel/workspace/JMSI18nRoutingBundle",
+        "options": {
+            "symlink": true
+        }
+    }
+],
+```

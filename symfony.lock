@@ -30,7 +30,7 @@
         "version": "1.1.2"
     },
     "remmel/i18n-routing-bundle": {
-        "version": "dev-master"
+        "version": "5.0.0"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
