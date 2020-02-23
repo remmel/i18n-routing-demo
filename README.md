@@ -22,12 +22,13 @@ class ContactController
        
  }
 EOF
+composer require symfony/translation
 ```
 Add in `services.yaml`
 ```yaml
 parameters:
     locale: 'en'
 ```
-composer require symfony/translation
+
 `composer req i18` 
 
