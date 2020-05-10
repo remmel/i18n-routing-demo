@@ -1,3 +1,5 @@
+Demo project using [i18n-routing-bundle](https://github.com/remmel/i18n-routing-bundle)
+
 # Generate that project from scratch
 
 ## Install basic Symfony app with annotations / translation / twig
